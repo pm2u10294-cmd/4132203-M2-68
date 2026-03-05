@@ -1,0 +1,7 @@
+services:
+    ssh:
+        image: rastasheep/ubuntu-sshd
+        container_name: ssh_server
+        ports:
+            - "2222:22"
+        
